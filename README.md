@@ -1,4 +1,4 @@
-# Portfolio React + Vite - Jean Dupont
+# Portfolio React + Vite - Meite Souleymane Tieba
 
 Un portfolio moderne et interactif développé avec React, Vite, JSX, Tailwind CSS et Framer Motion.
 
