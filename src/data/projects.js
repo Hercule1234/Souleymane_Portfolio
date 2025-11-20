@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "Systeme de gestion bancaire",
-    description: "Une plateforme e-commerce complète avec panier d'achat, paiement et gestion des commandes.",
+    description: "Système de gestion bancaire complet permettant la gestion unifiée des clients, comptes, transactions et cartes virtuelles.",
     stack: ["Django", "DjangoRestFramework", "Postgis", "PostgreSQL"],
     githubUrl: "https://github.com/example/ecommerce",
     demoUrl: "https://example-ecommerce.com",
@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 2,
     title: "Systeme de gestion d'etablissement scolaire",
-    description: "Application de gestion de tâches avec drag & drop, notifications et collaboration en temps réel.",
+    description: "plateforme complète de gestion d’établissement scolaire permettant la gestion intégrée des professeurs, élèves, parents, notes, calendrier scolaire, emploi du temps,inscriptions, scolarité et tous les processus administratifs..",
     stack: ["Django", "DjangoRestFramework", "Postgis", "PostgreSQL"],
     githubUrl: "https://github.com/example/task-manager",
     demoUrl: "https://example-tasks.com",
