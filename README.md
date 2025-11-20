@@ -200,4 +200,4 @@ Ce projet a été migré avec succès depuis Next.js vers Vite tout en conservan
 
 ---
 
-Développé avec ❤️ par Jean Dupont avec React + Vite
+Développé  par Meite Souleymane Tieba

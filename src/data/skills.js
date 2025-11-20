@@ -17,7 +17,7 @@ export const skills = [
   {
     id: 1,
     name: "React",
-    level: 90,
+    level: 70,
     icon: SiReact,
     color: "#61DAFB",
     category: "Frontend"
@@ -25,7 +25,7 @@ export const skills = [
   {
     id: 2,
     name: "JavaScript",
-    level: 95,
+    level: 75,
     icon: SiJavascript,
     color: "#F7DF1E",
     category: "Frontend"
@@ -97,7 +97,7 @@ export const skills = [
   {
     id: 11,
     name: "TypeScript",
-    level: 80,
+    level: 50,
     icon: SiTypescript,
     color: "#3178C6",
     category: "Frontend"

@@ -11,8 +11,8 @@ export const projects = [
   {
     id: 2,
     title: "Systeme de gestion d'etablissement scolaire",
-    description: "plateforme complète de gestion d’établissement scolaire permettant la gestion intégrée des professeurs, élèves, parents, notes, calendrier scolaire, emploi du temps,inscriptions, scolarité et tous les processus administratifs..",
-    stack: ["Django", "DjangoRestFramework", "Postgis", "PostgreSQL"],
+    description: "Plateforme complète de gestion d’établissement scolaire permettant la gestion de tous les processus administratifs..",
+    stack: ["Django", "DjangoRestFramework", "PostgreSQL"],
     githubUrl: "https://github.com/example/task-manager",
     demoUrl: "https://example-tasks.com",
     image: "/api/placeholder/400/300"
