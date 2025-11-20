@@ -187,13 +187,13 @@ const AboutPage = () => {
             variants={itemVariants}
             className="text-2xl md:text-3xl font-light text-gray-700 italic max-w-3xl mx-auto"
           >
-            "La simplicité est la sophistication suprême."
+            "If you can change your mind, you can change your life."
           </motion.blockquote>
           <motion.cite
             variants={itemVariants}
             className="block mt-4 text-lg text-gray-600"
           >
-            — Léonard de Vinci
+            — William James
           </motion.cite>
         </motion.div>
       </div>

@@ -183,7 +183,7 @@ const ContactPage = () => {
                   onChange={handleInputChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all duration-300"
-                  placeholder="Meite Souleymane Tieba"
+                  placeholder="Votre nom et prenom"
                 />
               </motion.div>
 
@@ -198,7 +198,7 @@ const ContactPage = () => {
                   onChange={handleInputChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all duration-300"
-                  placeholder="jean.dupont@example.com"
+                  placeholder="mail@example.com"
                 />
               </motion.div>
 
