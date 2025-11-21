@@ -117,8 +117,7 @@ const AboutPage = () => {
               variants={itemVariants}
               className="text-lg text-gray-700 leading-relaxed"
             >
-              Mon parcours m'a permis de travailler sur des projets variés, 
-              des startups aux grandes entreprises, en développant des solutions 
+              Mon parcours m'a permis de travailler sur des projets variés,  en développant des solutions 
               innovantes qui allient performance et expérience utilisateur optimale.
             </motion.p>
 

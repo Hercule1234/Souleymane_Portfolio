@@ -10,7 +10,10 @@ import {
   SiGit,
   SiFramer,
   SiAngular,
-  SiTypescript
+  SiPython,
+  SiFlask,
+  SiDocker,
+  SiMysql
 } from 'react-icons/si';
 
 export const skills = [
@@ -96,11 +99,11 @@ export const skills = [
   },
   {
     id: 11,
-    name: "TypeScript",
-    level: 50,
-    icon: SiTypescript,
+    name: "Python",
+    level: 80,
+    icon: SiPython,
     color: "#3178C6",
-    category: "Frontend"
+    category: "Backend"
   },
   {
     id: 12,
@@ -109,5 +112,29 @@ export const skills = [
     icon: SiDjango,
     color: "#092E20",
     category: "Backend"
+  },
+  {
+    id: 13,
+    name: "Flask",
+    level: 70,
+    icon: SiFlask,
+    color: "#092E20",
+    category: "Backend"
+  },
+  {
+    id: 14,
+    name: "Docker",
+    level: 60,
+    icon: SiDocker,
+    color: "#0e71d5ff",
+    category: "Tools"
+  },
+  {
+    id: 15,
+    name: "MySQL",
+    level: 75,
+    icon: SiMysql,
+    color: "#2192d8ff",
+    category: "Database"
   }
 ];

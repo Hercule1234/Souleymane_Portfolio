@@ -28,9 +28,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Social Media Dashboard",
-    description: "Dashboard analytique pour les réseaux sociaux avec statistiques et visualisations.",
-    stack: ["React", "D3.js", "Express", "PostgreSQL"],
+    title: "Systeme de gestion de distribution de livre",
+    description: "Application de Gestion du suivi de distribution des livres d'une entreprise  avec rapport analytique des depenses par catégorie.",
+    stack: ["Django", "TailwindCSS", "Chart.js", "PostgreSQL"],
     githubUrl: "https://github.com/example/social-dashboard",
     demoUrl: "https://example-social.com",
     image: "/api/placeholder/400/300"
