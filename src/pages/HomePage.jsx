@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const HomePage = () => {
+const HomePage = ({ setCurrentPage }) => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -85,6 +85,7 @@ const HomePage = () => {
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
+            onClick={() => setCurrentPage('projects')}
             className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
           >
             Voir mes projets
@@ -94,6 +95,7 @@ const HomePage = () => {
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
+            onClick={() => setCurrentPage('contact')}
             className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full font-semibold text-lg hover:bg-gray-900 hover:text-white transition-all duration-300"
           >
             Me contacter
