@@ -1,3 +1,6 @@
+import Rumipress from '../assets/Rumipress.png';
+import Portfolio from '../assets/Portfolio.png';
+
 export const projects = [
   {
     id: 1,
@@ -31,17 +34,17 @@ export const projects = [
     title: "Systeme de gestion de distribution de livre",
     description: "Application de Gestion du suivi de distribution des livres d'une entreprise  avec rapport analytique des depenses par catégorie.",
     stack: ["Django", "TailwindCSS", "Chart.js", "PostgreSQL"],
-    githubUrl: "https://github.com/example/social-dashboard",
+    githubUrl: "https://github.com/Hercule1234/rumi-press-django",
     demoUrl: "https://example-social.com",
-    image: "/api/placeholder/400/300"
+    image: Rumipress
   },
   {
     id: 5,
     title: "Portfolio Website",
     description: "Site portfolio responsive avec animations modernes et design épuré.",
     stack: ["React", "Framer Motion", "Tailwind CSS"],
-    githubUrl: "https://github.com/example/portfolio",
-    demoUrl: "https://example-portfolio.com",
-    image: "/api/placeholder/400/300"
+    githubUrl: "https://github.com/Hercule1234/Souleymane_Portfolio",
+    demoUrl: "https://meite-souleymane-tieba.netlify.app",
+    image: Portfolio
   }
 ];
