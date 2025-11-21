@@ -158,7 +158,9 @@ const AboutPage = () => {
               variants={itemVariants}
               className="mt-8"
             >
-              <motion.button
+              <motion.a
+                href="/CV_MEITE_SOULEYMANE_TIEBA.pdf"
+                download="CV_MEITE_SOULEYMANE_TIEBA.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
@@ -170,7 +172,7 @@ const AboutPage = () => {
                 >
                   →
                 </motion.span>
-              </motion.button>
+              </motion.a>
             </motion.div>
           </motion.div>
         </motion.div>
