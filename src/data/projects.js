@@ -1,6 +1,7 @@
 import Rumipress from '../assets/Rumipress.png';
 import Portfolio from '../assets/Portfolio.png';
 import Adabankpic from '../assets/Adabankpic.png'
+import monetabpic from '../assets/monetabpic.png'
 
 export const projects = [
   {
@@ -19,7 +20,7 @@ export const projects = [
     stack: ["Django", "DjangoRestFramework", "PostgreSQL"],
     githubUrl: "https://github.com/example/task-manager",
     demoUrl: "https://example-tasks.com",
-    image: "/api/placeholder/400/300"
+    image: monetabpic
   },
   {
     id: 3,
