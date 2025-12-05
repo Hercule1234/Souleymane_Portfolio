@@ -3,6 +3,7 @@ import { projects } from '../data/projects';
 import ScrollAnimation from '../components/ScrollAnimation';
 
 const ProjectsPage = () => {
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20 px-4">
       <div className="max-w-7xl mx-auto">
@@ -12,7 +13,7 @@ const ProjectsPage = () => {
               Mes Projets
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Découvrez une sélection de mes réalisations récentes, 
+              Découvrez une sélection de mes réalisations récentes,
               mêlant innovation technique et design moderne.
             </p>
             <div className="w-24 h-1 bg-gray-900 mx-auto mt-6" />
@@ -56,7 +57,7 @@ const ProjectsPage = () => {
                 >
                   {project.title}
                 </motion.h3>
-                
+
                 <motion.p
                   className="text-gray-600 mb-4 text-sm leading-relaxed"
                   initial={{ opacity: 0.8 }}
@@ -98,7 +99,7 @@ const ProjectsPage = () => {
                   >
                     GitHub
                   </motion.a>
-                  
+
                   <motion.a
                     href={project.demoUrl}
                     target="_blank"
@@ -123,7 +124,7 @@ const ProjectsPage = () => {
               Vous avez un projet en tête ?
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Parlons-en ! Je serais ravi de vous aider à concrétiser vos idées 
+              Parlons-en ! Je serais ravi de vous aider à concrétiser vos idées
               et à créer une solution sur mesure pour vos besoins.
             </p>
             <motion.button

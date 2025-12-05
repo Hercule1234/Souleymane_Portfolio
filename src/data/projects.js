@@ -1,5 +1,6 @@
 import Rumipress from '../assets/Rumipress.png';
 import Portfolio from '../assets/Portfolio.png';
+import Adabankpic from '../assets/Adabankpic.png'
 
 export const projects = [
   {
@@ -9,12 +10,12 @@ export const projects = [
     stack: ["Django", "DjangoRestFramework", "Postgis", "PostgreSQL"],
     githubUrl: "https://github.com/example/ecommerce",
     demoUrl: "https://example-ecommerce.com",
-    image: "/api/placeholder/400/300"
+    image: Adabankpic
   },
   {
     id: 2,
     title: "Systeme de gestion d'etablissement scolaire",
-    description: "Plateforme complète de gestion d’établissement scolaire permettant la gestion de tous les processus administratifs..",
+    description: "Plateforme complète de gestion d'établissement scolaire permettant la gestion de tous les processus administratifs.",
     stack: ["Django", "DjangoRestFramework", "PostgreSQL"],
     githubUrl: "https://github.com/example/task-manager",
     demoUrl: "https://example-tasks.com",

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import SoulTieba from '../assets/SoulTieba.png';
 
 const AboutPage = () => {
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -108,8 +109,8 @@ const AboutPage = () => {
               variants={itemVariants}
               className="text-lg text-gray-700 leading-relaxed"
             >
-              Bonjour ! Je suis Meite Souleymane Tieba, un développeur fullstack passionné 
-              avec plus de 2 ans d'expérience dans la création d'applications web 
+              Bonjour ! Je suis Meite Souleymane Tieba, un développeur fullstack passionné
+              avec plus de 2 ans d'expérience dans la création d'applications web
               modernes et interactives.
             </motion.p>
 
@@ -117,7 +118,7 @@ const AboutPage = () => {
               variants={itemVariants}
               className="text-lg text-gray-700 leading-relaxed"
             >
-              Mon parcours m'a permis de travailler sur des projets variés,  en développant des solutions 
+              Mon parcours m'a permis de travailler sur des projets variés,  en développant des solutions
               innovantes qui allient performance et expérience utilisateur optimale.
             </motion.p>
 
@@ -125,8 +126,8 @@ const AboutPage = () => {
               variants={itemVariants}
               className="text-lg text-gray-700 leading-relaxed"
             >
-              Je suis constamment à l'affût des dernières tendances et technologies 
-              du web, et j'aime partager mes connaissances à travers des articles 
+              Je suis constamment à l'affût des dernières tendances et technologies
+              du web, et j'aime partager mes connaissances à travers des articles
               et des contributions open source.
             </motion.p>
 

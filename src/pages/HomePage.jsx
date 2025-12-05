@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 
 const HomePage = ({ setCurrentPage }) => {
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -71,8 +72,8 @@ const HomePage = ({ setCurrentPage }) => {
           variants={itemVariants}
           className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          Passionné par la création d'expériences web exceptionnelles, je transforme 
-          des idées en applications modernes, interactives et performantes. 
+          Passionné par la création d'expériences web exceptionnelles, je transforme
+          des idées en applications modernes, interactives et performantes.
           Spécialisé en React, Django et design responsive.
         </motion.p>
 
@@ -90,7 +91,7 @@ const HomePage = ({ setCurrentPage }) => {
           >
             Voir mes projets
           </motion.button>
-          
+
           <motion.button
             variants={buttonVariants}
             whileHover="hover"
