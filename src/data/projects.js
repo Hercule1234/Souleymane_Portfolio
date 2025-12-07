@@ -19,7 +19,7 @@ export const projects = [
     description: "Plateforme complète de gestion d'établissement scolaire permettant la gestion de tous les processus administratifs.",
     stack: ["Django", "DjangoRestFramework", "PostgreSQL"],
     githubUrl: "https://github.com/example/task-manager",
-    demoUrl: "https://example-tasks.com",
+    demoUrl: "#",
     image: monetabpic
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     description: "Tableau de bord météo interactif avec prévisions, cartes et graphiques animés.",
     stack: ["React", "OpenWeather API", "Chart.js", "CSS"],
     githubUrl: "https://github.com/example/weather-dashboard",
-    demoUrl: "https://example-weather.com",
+    demoUrl: "#",
     image: "/api/placeholder/400/300"
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
     description: "Application de Gestion du suivi de distribution des livres d'une entreprise  avec rapport analytique des depenses par catégorie.",
     stack: ["Django", "TailwindCSS", "Chart.js", "PostgreSQL"],
     githubUrl: "https://github.com/Hercule1234/rumi-press-django",
-    demoUrl: "https://example-social.com",
+    demoUrl: "#",
     image: Rumipress
   },
   {

@@ -110,7 +110,7 @@ const AboutPage = () => {
               className="text-lg text-gray-700 leading-relaxed"
             >
               Bonjour ! Je suis Meite Souleymane Tieba, un développeur fullstack passionné
-              avec plus de 2 ans d'expérience dans la création d'applications web
+              avec  1 ans d'expérience dans la création d'applications web
               modernes et interactives.
             </motion.p>
 
@@ -138,7 +138,7 @@ const AboutPage = () => {
             >
               {[
                 { label: 'Localisation', value: 'Abidjan, Cote d ivoire ' },
-                { label: 'Expérience', value: '2+ ans' },
+                { label: 'Expérience', value: '1+ ans' },
                 { label: 'Spécialisation', value: 'React & Django' },
                 { label: 'Disponibilité', value: 'Freelance' }
               ].map((info, index) => (
