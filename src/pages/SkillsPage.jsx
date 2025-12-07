@@ -201,7 +201,7 @@ const SkillsPage = () => {
             >
               {[
                 { number: '5+', label: 'Projets réalisés', icon: '🚀' },
-                { number: '2+', label: 'Années d\'expérience', icon: '📅' },
+                { number: '1+', label: 'Années d\'expérience', icon: '📅' },
                 { number: '5+', label: 'Technologies maîtrisées', icon: '⚡' },
                 { number: '100%', label: 'Satisfaction client', icon: '⭐' }
               ].map((stat, index) => (
