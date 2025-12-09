@@ -9,7 +9,7 @@ export const projects = [
     title: "Systeme de gestion bancaire",
     description: "Système de gestion bancaire complet permettant la gestion unifiée des clients, comptes, transactions et cartes virtuelles.",
     stack: ["Django", "DjangoRestFramework", "Postgis", "PostgreSQL"],
-    githubUrl: "https://github.com/example/ecommerce",
+    gitlabUrl: "https://gitlab.com/ada3-20251052528/adabank",
     demoUrl: "https://example-ecommerce.com",
     image: Adabankpic
   },
@@ -18,7 +18,7 @@ export const projects = [
     title: "Systeme de gestion d'etablissement scolaire",
     description: "Plateforme complète de gestion d'établissement scolaire permettant la gestion de tous les processus administratifs.",
     stack: ["Django", "DjangoRestFramework", "PostgreSQL"],
-    githubUrl: "https://github.com/example/task-manager",
+    gitlabUrl: "https://gitlab.com/ada3-20251052528/monetab",
     demoUrl: "#",
     image: monetabpic
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "Weather Dashboard",
     description: "Tableau de bord météo interactif avec prévisions, cartes et graphiques animés.",
     stack: ["React", "OpenWeather API", "Chart.js", "CSS"],
-    githubUrl: "https://github.com/example/weather-dashboard",
+    githubUrl: "#",
     demoUrl: "#",
     image: "/api/placeholder/400/300"
   },

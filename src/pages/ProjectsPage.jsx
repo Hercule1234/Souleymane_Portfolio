@@ -90,14 +90,14 @@ const ProjectsPage = () => {
                 {/* Boutons d'action */}
                 <div className="flex gap-3">
                   <motion.a
-                    href={project.githubUrl}
+                    href={project.gitlabUrl || project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="flex-1 bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium text-center hover:bg-gray-800 transition-colors duration-300"
                   >
-                    GitHub
+                    {project.gitlabUrl ? "GitLab" : "GitHub"}
                   </motion.a>
 
                   <motion.a
