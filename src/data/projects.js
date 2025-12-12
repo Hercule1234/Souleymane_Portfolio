@@ -36,7 +36,7 @@ export const projects = [
     title: "Systeme de gestion de distribution de livre",
     description: "Application de Gestion du suivi de distribution des livres d'une entreprise  avec rapport analytique des depenses par catégorie.",
     stack: ["Django", "TailwindCSS", "Chart.js", "PostgreSQL"],
-    githubUrl: "https://github.com/Hercule1234/rumi-press-django",
+    githubUrl: "https://github.com/SouleymaneTieba/rumi-press-django",
     demoUrl: "#",
     image: Rumipress
   },
@@ -45,7 +45,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "Site portfolio responsive avec animations modernes et design épuré.",
     stack: ["React", "Framer Motion", "Tailwind CSS"],
-    githubUrl: "https://github.com/Hercule1234/Souleymane_Portfolio",
+    githubUrl: "https://github.com/SouleymaneTieba/Souleymane_Portfolio",
     demoUrl: "https://meite-souleymane-tieba.netlify.app",
     image: Portfolio
   }
